@@ -128,3 +128,28 @@
     "map_bonus": "+20% tech armor"
   }
 }
+{
+  "id": 6,
+  "name": "Forest Guardian",
+  "rarity": "Rare",
+  "element": "Earth",
+  "network": "Base",
+  "contract": "0xC88B89929775A531E45EDfa68521F16Df8BeA601",
+  "hp": 5000,
+  "attack": 260,
+  "defense": 320,
+  "speed": 80,
+  "skills": [
+    {"name": "Root Bind", "damage": 200, "effect": "Stun"},
+    {"name": "Nature Heal", "damage": 0, "effect": "Heal"},
+    {"name": "Gaia Smash", "damage": 450, "effect": "AOE"}
+  ],
+  "nft": {
+    "token_id": "BASE-0006",
+    "metadata_uri": "ipfs://earth006"
+  },
+  "origin": {
+    "realm": "Emerald Forest",
+    "map_bonus": "+25% regen"
+  }
+}
