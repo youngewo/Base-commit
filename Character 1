@@ -228,3 +228,28 @@
     "map_bonus": "+25% spell power"
   }
 }
+{
+  "id": 10,
+  "name": "Iron Defender",
+  "rarity": "Rare",
+  "element": "Steel",
+  "network": "Base",
+  "contract": "0xC88B89929775A531E45EDfa68521F16Df8BeA601",
+  "hp": 5500,
+  "attack": 220,
+  "defense": 400,
+  "speed": 60,
+  "skills": [
+    {"name": "Shield Bash", "damage": 180, "effect": "Stun"},
+    {"name": "Fortify", "damage": 0, "effect": "Defense Up"},
+    {"name": "Titan Wall", "damage": 300, "effect": "AOE Knockback"}
+  ],
+  "nft": {
+    "token_id": "BASE-0010",
+    "metadata_uri": "ipfs://iron010"
+  },
+  "origin": {
+    "realm": "Iron Fortress",
+    "map_bonus": "+30% defense"
+  }
+}
