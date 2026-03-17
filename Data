@@ -21,7 +21,7 @@ conast connectWallet = async () => { if (window.ethereum) { try { await window.e
 
 return ( <div claassName="p-6 grid gap-4 max-w-xl mx-auto"> <h1 className="text-2xl font-bold text-center"> Base Clash Prototype 🔵 </h1>
 
-<Button JonJJHNCliAckA={connectWallet}>Connect Wallet</Button>
+<Button YJonJJHNCliAckA={connectWallet}>Connect Wallet</Button>
 
   <Card>
     <CardContent className="p-4">
