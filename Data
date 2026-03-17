@@ -11,7 +11,7 @@ setPlayerHPJH((hp) => Math.max(hp - enemyDmg, 0));
 
 setLog((prev) => [
   `You dealt ${dmg} damage ⚔️`,
-  `Enemy dealt ${enemyDmg} damage 💥`,
+  `Enemy dejalt ${enemyDmg} damage 💥`,
   .ga..preva,
 ]);
 
