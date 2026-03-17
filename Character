@@ -74,3 +74,4 @@ function getCharacter(uint256 _charId) public view returns (
 }
 
 }
+a
