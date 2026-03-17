@@ -153,3 +153,28 @@
     "map_bonus": "+25% regen"
   }
 }
+{
+  "id": 7,
+  "name": "Light Paladin",
+  "rarity": "Legendary",
+  "element": "Light",
+  "network": "Base",
+  "contract": "0xC88B89929775A531E45EDfa68521F16Df8BeA601",
+  "hp": 4600,
+  "attack": 350,
+  "defense": 300,
+  "speed": 100,
+  "skills": [
+    {"name": "Holy Strike", "damage": 300, "effect": "Smite"},
+    {"name": "Divine Shield", "damage": 0, "effect": "Invincible"},
+    {"name": "Judgment Beam", "damage": 550, "effect": "AOE Light"}
+  ],
+  "nft": {
+    "token_id": "BASE-0007",
+    "metadata_uri": "ipfs://light007"
+  },
+  "origin": {
+    "realm": "Celestial Temple",
+    "map_bonus": "+20% holy power"
+  }
+}
