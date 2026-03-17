@@ -49,3 +49,30 @@
     "map_bonus": "+15% water control"
   }
 }
+
+
+{
+  "id": 3,
+  "name": "Storm Assassin",
+  "rarity": "Epic",
+  "element": "Air",
+  "network": "Base",
+  "contract": "0xC88B89929775A531E45EDfa68521F16Df8BeA601",
+  "hp": 3200,
+  "attack": 400,
+  "defense": 120,
+  "speed": 160,
+  "skills": [
+    {"name": "Wind Cutter", "damage": 270, "effect": "Bleed"},
+    {"name": "Flash Step", "damage": 150, "effect": "Teleport"},
+    {"name": "Tempest Fury", "damage": 500, "effect": "Multi-hit"}
+  ],
+  "nft": {
+    "token_id": "BASE-0003",
+    "metadata_uri": "ipfs://storm003"
+  },
+  "origin": {
+    "realm": "Sky Citadel",
+    "map_bonus": "+20% speed"
+  }
+}
