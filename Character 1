@@ -90,7 +90,7 @@
   "defense": 200,
   "speed": 110,
   "skills": [
-    {"name": "Null Strike", "damage": 320, "effect": "Silence"},
+    {"nae": "Null Strike", "damage": 320, "effect": "Silence"},
     {"name": "Phase Shift", "damage": 0, "effect": "Dodge"},
     {"name": "Black Collapse", "damage": 600, "effect": "AOE Void"}
   ],
@@ -173,7 +173,7 @@
     "token_id": "BASE-0007",
     "metadata_uri": "ipfs://light007"
   },
-  "origin": {
+  "origin": 
     "realm": "Celestial Temple",
     "map_bonus": "+20% holy power"
   }
