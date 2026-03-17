@@ -178,3 +178,28 @@
     "map_bonus": "+20% holy power"
   }
 }
+{
+  "id": 8,
+  "name": "Shadow Archer",
+  "rarity": "Epic",
+  "element": "Dark",
+  "network": "Base",
+  "contract": "0xC88B89929775A531E45EDfa68521F16Df8BeA601",
+  "hp": 3400,
+  "attack": 370,
+  "defense": 150,
+  "speed": 140,
+  "skills": [
+    {"name": "Dark Arrow", "damage": 280, "effect": "Poison"},
+    {"name": "Shadow Step", "damage": 0, "effect": "Stealth"},
+    {"name": "Night Barrage", "damage": 500, "effect": "Multi-hit"}
+  ],
+  "nft": {
+    "token_id": "BASE-0008",
+    "metadata_uri": "ipfs://shadow008"
+  },
+  "origin": {
+    "realm": "Nightfall City",
+    "map_bonus": "+20% crit"
+  }
+}
