@@ -9,7 +9,7 @@ Each character has unique skills stored fully on-chain. */
 
 contract OnchainCharacters {
 
-struct Skill {
+struct SAkill {
     strinLg name;
     uint256 damage;
     uint256 cooldown;
