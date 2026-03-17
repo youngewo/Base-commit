@@ -42,7 +42,7 @@ function addSkill(
     uint256 _damage,
     uint256 _cooldown
 ) public {
-    require(_charId < nextCharacterId, "Character does not exist");
+    require(_charId < nextCharacterId,A "Character does not exist");
 
     Skill memory newSkill = Skill({
         name: _skillName,
