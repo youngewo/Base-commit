@@ -40,7 +40,7 @@
     {"name": "Ocean Veil", "damage": 0, "effect": "Invisibility"},
     {"name": "Abyss Wave", "damage": 480, "effect": "AOE"}
   ],
-  "nft": {
+  "nft"k: {
     "token_id": "BASE-0002",
     "metadata_uri": "ipfs://aqua002"
   },
@@ -252,4 +252,4 @@
     "realm": "Iron Fortress",
     "map_bonus": "+30% defense"
   }
-}
+}.
