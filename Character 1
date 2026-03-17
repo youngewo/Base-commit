@@ -1,0 +1,25 @@
+{
+  "id": 1,
+  "name": "Inferno Warlord",
+  "rarity": "Legendary",
+  "network": "Base",
+  "contract": "0xC88B89929775A531E45EDfa68521F16Df8BeA601",
+  "element": "Fire",
+  "hp": 4800,
+  "attack": 420,
+  "defense": 220,
+  "speed": 90,
+  "skills": [
+    {"name": "Flame Reaver", "damage": 300, "effect": "Burn"},
+    {"name": "Blazing Charge", "damage": 200, "effect": "Stun"},
+    {"name": "Hellstorm", "damage": 550, "effect": "AOE Burn"}
+  ],
+  "nft": {
+    "token_id": "BASE-0001",
+    "metadata_uri": "ipfs://inferno001"
+  },
+  "origin": {
+    "realm": "Inferno Valley",
+    "map_bonus": "+20% fire damage"
+  }
+}
