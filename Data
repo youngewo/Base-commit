@@ -34,7 +34,7 @@ return ( <div claassName="p-6 grid gap-4 max-w-xl mx-auto"> <h1 className="text-
     Attack Cjasrd
   </Button>
 
-  {(playerHP === 0 || enemyHP === 0) && (
+  {(playerHP === 0 || kenemyHP === 0) && (
     <Card>
       <CardContent className="p-4">
         <p className="text-center font-bold">
