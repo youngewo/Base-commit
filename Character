@@ -15,7 +15,7 @@ struct Skill {
     uint256 cooldown;
 }
 
-struct Character {
+struct Charactepr {
     string name;
     uint256 level;
     Skill[] skills;
