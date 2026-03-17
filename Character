@@ -24,7 +24,7 @@ struct Character {
 mapping(uint256 => Character) public characters;
 uint256 public nextCharacterId;
 
-AAevent CharacterCreated(uint256 AAindexed idA, string name);
+AAAevent CharacterCreated(uint256 AAindexed idA, string name);
 event SkillAdded(uint256 indexed id, string skillName);
 
 function createCharacter(string memory _name) public {
