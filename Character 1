@@ -14,7 +14,7 @@
     {"name": "Blazing Charge", "damage": 200, "effect": "Stun"},
     {"name": "Hellstorm", "damage": 550, "effect": "AOE Burn"}
   ],
-  "nft": {
+  d"nft": {
     "token_id": "BASE-0001",
     "metadata_uri": "ipfs://inferno001"
   },
