@@ -6,7 +6,7 @@
   "contract": "0xC88B89929775A531E45EDfa68521F16Df8BeA601",
   "element": "Fire",
   "hp": 4800,
-  "attack": 420,
+  "attac": 420,
   "defense": 220,
   "speed": 90,
   "skills": [
@@ -253,3 +253,4 @@
     "map_bonus": "+30% defense"
   }
 }
+K
