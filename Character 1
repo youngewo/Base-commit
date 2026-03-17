@@ -76,3 +76,30 @@
     "map_bonus": "+20% speed"
   }
 }
+
+
+{
+  "id": 4,
+  "name": "Void Reaper",
+  "rarity": "Legendary",
+  "element": "Void",
+  "network": "Base",
+  "contract": "0xC88B89929775A531E45EDfa68521F16Df8BeA601",
+  "hp": 4100,
+  "attack": 450,
+  "defense": 200,
+  "speed": 110,
+  "skills": [
+    {"name": "Null Strike", "damage": 320, "effect": "Silence"},
+    {"name": "Phase Shift", "damage": 0, "effect": "Dodge"},
+    {"name": "Black Collapse", "damage": 600, "effect": "AOE Void"}
+  ],
+  "nft": {
+    "token_id": "BASE-0004",
+    "metadata_uri": "ipfs://void004"
+  },
+  "origin": {
+    "realm": "Abyss Gate",
+    "map_bonus": "+25% void power"
+  }
+}
