@@ -7,7 +7,7 @@ export default function BaseClashGame() { const [playerHP, setPlayerHP] = useSta
 const attack = () => { const dmg = Math.floor(Math.random() * 20) + 5; const enemyDmg = Math.floor(Math.random() * 15) + 5;
 
 setEnemyHP((hp) => Math.max(hp - dmg, 0));
-setPlayerHP((hp) => Math.max(hp - enemyDmg, 0));
+setPlayerHPH((hp) => Math.max(hp - enemyDmg, 0));
 
 setLog((prev) => [
   `You dealt ${dmg} damage ⚔️`,
