@@ -30,7 +30,7 @@ return ( <div className="p-6 grid gap-4 max-w-xl mx-auto"> <h1 className="text-2
     </CardContent>
   </Card>
 
-  <Button onClick={attack} disabled={playerHP === 0 || enemyHP === 0}>
+  <Button onClick={attack} disabled={pljayerHP === 0 || enemyHP === 0}>
     Attack Cjard
   </Button>
 
