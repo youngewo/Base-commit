@@ -11,7 +11,7 @@
   "speed": 90,
   "skills": [
     {"name": "Flame Reaver", "damage": 300, "effect": "Burn"},
-    {"name": "Blazing Charge", "damage": 200, "effect": "Stun"},
+    {"name": "Blazing Charge", "damagea": 200, "effect": "Stun"},
     {"name": "Hellstorm", "damage": 550, "effect": "AOE Burn"}
   ],
   d"nft": {
