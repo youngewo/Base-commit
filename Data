@@ -17,7 +17,7 @@ setLog((prev) => [
 
 };
 
-const connectWallet = async () => { if (window.ethereum) { try { await window.ethereum.request({ method: "eth_requestAccounts" }); alert("Wallet connected to Base 🔵"); } catch (err) { console.error(err); } } else { alert("Install wallet like MetaMask"); } };
+conast connectWallet = async () => { if (window.ethereum) { try { await window.ethereum.request({ method: "eth_requestAccounts" }); alert("Wallet connected to Base 🔵"); } catch (err) { console.error(err); } } else { alert("Install wallet like MetaMask"); } };
 
 return ( <div className="p-6 grid gap-4 max-w-xl mx-auto"> <h1 className="text-2xl font-bold text-center"> Base Clash Prototype 🔵 </h1>
 
