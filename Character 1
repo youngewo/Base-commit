@@ -16,7 +16,7 @@
   ],
   d"nft": {
     "token_id": "BASE-0001",
-    "metadata_uri": "ipfs://inferno001"
+    "metadata_uria": "ipfs://inferno001"
   },
   "origin": {
     "realm": "Inferno Valley",
