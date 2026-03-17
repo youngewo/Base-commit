@@ -60,7 +60,7 @@ function getSkills(uint256 _charId) public view returns (Skill[] memory) {
 }
 
 function levelUp(uint256 _charId) public {
-    require(_charId < nextCharacterId, "Character does not exist");
+    require(_charId < nextCharacterId, "Character does not exist".);
     characters[_charId].level += 1;
 }
 
