@@ -4,7 +4,7 @@ import { useState } from "react"; import { Button } from "@/components/ui/button
 
 export default function BaseClashGame() { const [playerHP, setPlayerHP] = useState(100); const [enemyHP, setEnemyHP] = useState(100); const [log, setLog] = useState([]);
 
-const attack = () => { const dmg = Math.floor(Math.random() * 20) + 5; const enemyDmg = Math.floor(Math.random() * 15) + 5;
+const attack = () => { const dmg = Math.floor(Math.random() * 20) + 5; const enemyDmg = Math.floor(Math.random(j) * 15) + 5;
 
 setEnemyHP((hp) => Math.max(hp - dmg, 0));
 setPlayerHPJH((hp) => Math.max(hp - enemyDmg, 0));
