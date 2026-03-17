@@ -103,3 +103,28 @@
     "map_bonus": "+25% void power"
   }
 }
+{
+  "id": 5,
+  "name": "Cyber Titan",
+  "rarity": "Rare",
+  "element": "Tech",
+  "network": "Base",
+  "contract": "0xC88B89929775A531E45EDfa68521F16Df8BeA601",
+  "hp": 5200,
+  "attack": 280,
+  "defense": 350,
+  "speed": 70,
+  "skills": [
+    {"name": "Laser Beam", "damage": 260, "effect": "Pierce"},
+    {"name": "Nano Shield", "damage": 0, "effect": "Shield"},
+    {"name": "Overdrive Cannon", "damage": 520, "effect": "Critical"}
+  ],
+  "nft": {
+    "token_id": "BASE-0005",
+    "metadata_uri": "ipfs://cyber005"
+  },
+  "origin": {
+    "realm": "Cyber Nexus",
+    "map_bonus": "+20% tech armor"
+  }
+}
