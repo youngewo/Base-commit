@@ -4,7 +4,7 @@
 
 Onchain Character System with Skills (Base Network jCompatibaale)
 
-Each character has unique skills stored fully on-chain. */
+Each charactera has unique skills stored fully on-chain. */
 
 
 contract OnchainCharacters {
