@@ -203,3 +203,28 @@
     "map_bonus": "+20% crit"
   }
 }
+{
+  "id": 9,
+  "name": "Arcane Sorcerer",
+  "rarity": "Epic",
+  "element": "Magic",
+  "network": "Base",
+  "contract": "0xC88B89929775A531E45EDfa68521F16Df8BeA601",
+  "hp": 3000,
+  "attack": 420,
+  "defense": 140,
+  "speed": 120,
+  "skills": [
+    {"name": "Mana Burst", "damage": 300, "effect": "Mana Drain"},
+    {"name": "Spell Shield", "damage": 0, "effect": "Reflect"},
+    {"name": "Arcane Explosion", "damage": 580, "effect": "AOE"}
+  ],
+  "nft": {
+    "token_id": "BASE-0009",
+    "metadata_uri": "ipfs://arcane009"
+  },
+  "origin": {
+    "realm": "Mystic Tower",
+    "map_bonus": "+25% spell power"
+  }
+}
