@@ -23,3 +23,29 @@
     "map_bonus": "+20% fire damage"
   }
 }
+
+{
+  "id": 2,
+  "name": "Aqua Phantom",
+  "rarity": "Epic",
+  "network": "Base",
+  "contract": "0xC88B89929775A531E45EDfa68521F16Df8BeA601",
+  "element": "Water",
+  "hp": 3900,
+  "attack": 310,
+  "defense": 180,
+  "speed": 130,
+  "skills": [
+    {"name": "Tidal Slash", "damage": 250, "effect": "Slow"},
+    {"name": "Ocean Veil", "damage": 0, "effect": "Invisibility"},
+    {"name": "Abyss Wave", "damage": 480, "effect": "AOE"}
+  ],
+  "nft": {
+    "token_id": "BASE-0002",
+    "metadata_uri": "ipfs://aqua002"
+  },
+  "origin": {
+    "realm": "Deep Sea Ruins",
+    "map_bonus": "+15% water control"
+  }
+}
